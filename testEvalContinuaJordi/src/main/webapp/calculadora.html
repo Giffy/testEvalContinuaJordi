@@ -1,0 +1,43 @@
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>Hello App Engine</title>
+  </head>
+
+  <body>
+    <h1>Bienvenido a la Calculadora</h1>
+  
+    <table>
+      <tr>
+        <td colspan="2" style="font-weight:bold;">Escribe los valores y el tipo de calculo<br></td>        
+      </tr>
+      <tr>     
+      <td>     
+	  <form action=/calculator method=get>
+				<br>
+				Valor1: <input type=number name=v1 default="0" ><br>
+				Valor2: <input type=number name=v2 default="0" ><br>
+				<br>
+				<br>				
+								
+				<input type="radio" name=o1 value="add" checked> Suma<br>
+				<input type="radio" name=o1 value="sub"> Resta<br>
+				<input type="radio" name=o1 value="mul"> Multiplicacion<br>
+				<input type="radio" name=o1 value="div"> Division<br>
+				 
+				<br>
+				<input type=submit value=Submit>
+	  </form></td>
+	  </tr>
+	  
+	  
+    </table>
+    
+    
+    
+    
+  </body>
+</html>
